@@ -17,7 +17,8 @@ const findMinNumWithMaxFreq = ( arr = [] ) => {
         return dicc;
     }, {})
 
-    return { frec, minNum, maxFrec };
+    //return { frec, minNum, maxFrec };
+    return minNum;
 }
 
 console.log( findMinNumWithMaxFreq([2, 3, 3, 3, 4, 4, 5, 4, 3, 1, 4]) );
